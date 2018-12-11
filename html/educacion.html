@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable:no">
+		<meta name="author" content="Miguel R. Hernandez Grau">
+		<meta name="description" content="Evaluacion Final de Fundamentos de HTML">
+		<title>Resumen Curricular - Educaci&oacute;n</title>
+	</head>
+
+	<body>
+		<header>
+			<svg viewbox="0 0 180 75" width="180" height="75">
+				<image xlink:href="../images/logo_mrhg.svg" width="100%" height="100%"/>
+			</svg>
+		</header>
+		
+		<h1>Resumen Curricular</h1>
+		
+		<h2>Miguel Rom&aacute;n Hern&aacute;ndez Grau</h2>
+		
+		<h4>
+			Fecha de Nacimiento: Febrero 15 de 1974.<br>
+			Lugar de Nacimiento: Santo Domingo, Rep&uacute;blica Dominicana.
+		</h4>
+		
+		<a href="../index.html">Informaci&oacute;n Personal</a> | <a href="experiencia.html">Experiencia</a>
+		
+		<h2>Educaci&oacute;n</h2>
+		
+		<table border="1", cellpadding="10", cellspacing="0">
+			<thead>
+				<tr>
+					<th>A&ntilde;o</th>
+					<th>Instituci&oacute;n</th>
+					<th>Lugar</th>
+					<th>&iquest;Culmin&oacute;?</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>2018</td>
+					<td>NextU</td>
+					<td>Santo Domingo</td>
+					<td>No</td>
+				</tr>
+				<tr>
+					<td>1996</td>
+					<td>Pontificia Universidad Cat&oacute;lica Madre y Maestra</td>
+					<td>Santo Domingo</td>
+					<td>Si</td>
+				</tr>
+				<tr>
+					<td>1991</td>
+					<td>Colegio Loyola</td>
+					<td>Santo Domingo</td>
+					<td>Si</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<h3>Agregar Estudios</h3>
+		
+		<form>
+			<p>A&ntilde;o: 
+				<select name="anio" id="anio">
+					<option>2010</option>
+					<option>2011</option>
+					<option>2012</option>
+					<option>2013</option>
+					<option>2014</option>
+					<option>2015</option>
+					<option>2016</option>
+					<option>2017</option>
+					<option>2018</option>
+				</select>
+			</p>
+			<p>Instituci&oacute;n: <input type="text" name="inst" id="inst" placeholder="Ej. Universidad del Caribe" required></p>
+			<p>Lugar: <textarea maxlength="100" id="lugar" rows="2" cols="50"></textarea></p>
+			<input type="submit" id="submit" value="Enviar">
+		</form>
+		
+		<footer>
+			<p>Contactos:<br>
+			Correo Electronico: <a href="mailto:miguelhg@gmail.com">miguelhg@gmail.com</a> | Tel&eacute;fono: 809-555-5555 | Instagram/Twitter: @Obigox</p>
+		</footer>
+	</body>
+</html>
